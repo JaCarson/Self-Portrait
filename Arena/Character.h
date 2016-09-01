@@ -14,6 +14,7 @@
     NSInteger _height;
     NSInteger _dob;
     
+   
 }
 
 - (NSString *)name;
@@ -25,8 +26,8 @@
 - (NSInteger)height;
 - (void)setHeight:(NSInteger)height;
 
-- (NSInteger)dob;
-- (void)setDob:(NSInteger)dob;
+- (NSString *)myArray;
+- (void):(NSInteger)myArray;
 
 
 @end

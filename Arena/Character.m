@@ -27,17 +27,17 @@
 -(void)setHeight:(NSInteger)height{
     _height = height;
 }
-- (NSInteger)dob{
-    return _dob;
-}
--(void)setDob:(NSInteger)dob{
-    _dob = dob;
-}
+
 - (NSString *)description {
-    return [NSString stringWithFormat:@"Character with name %@, age %@ and height %@.. he was born in good ole' %@ by the way", [self name], @([self age]), @([self height]), @([self dob])];
-   
+    return [NSString stringWithFormat:@"Character with name %@, age %@ and height %@. Jim loves", [self name], @([self age]), @([self height])];
     
+
+    
+    
+    
+   
 }
+
 
     @end
 

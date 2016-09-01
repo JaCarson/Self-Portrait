@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
         [someCharacter setName:@"jim"];
         [someCharacter setAge:24];
         [someCharacter setHeight:6];
-        [someCharacter setDob:92];
+        NSArray *myArray = [NSArray arrayWithObjects:@"Wakeboarding",@"Women",@"Warcraft",@"Whales", nil];
         //[someCharacter setInterests:@[
                                       //@"Wakeboarding",
                                       //@"Music",
@@ -26,6 +26,8 @@ int main(int argc, const char * argv[]) {
          
          
         NSLog(@"%@", someCharacter);
+        NSLog(@"%@", myArray);
+        
         
     
         
