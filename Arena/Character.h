@@ -12,7 +12,7 @@
     NSString *_name;
     NSInteger _age;
     NSInteger _height;
-    NSInteger _dob;
+    NSString *_interests;
     
    
 }
@@ -26,8 +26,9 @@
 - (NSInteger)height;
 - (void)setHeight:(NSInteger)height;
 
-- (NSString *)myArray;
-- (void):(NSInteger)myArray;
+
+- (NSString *)interests;
+- (void)setInterests:(NSString *)interests;
 
 
 @end

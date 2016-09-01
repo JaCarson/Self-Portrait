@@ -15,18 +15,10 @@ int main(int argc, const char * argv[]) {
         [someCharacter setName:@"jim"];
         [someCharacter setAge:24];
         [someCharacter setHeight:6];
-        NSArray *myArray = [NSArray arrayWithObjects:@"Wakeboarding",@"Women",@"Warcraft",@"Whales", nil];
-        //[someCharacter setInterests:@[
-                                      //@"Wakeboarding",
-                                      //@"Music",
-                                      //@"Games",
-                                      //@"Animals"
-                                      //]];
-         
-         
+        [someCharacter setInterests: @"Yoloing, Loling, Emojis, Instagram"];
          
         NSLog(@"%@", someCharacter);
-        NSLog(@"%@", myArray);
+
         
         
     

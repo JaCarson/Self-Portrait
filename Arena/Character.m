@@ -27,9 +27,22 @@
 -(void)setHeight:(NSInteger)height{
     _height = height;
 }
+- (NSString *)interests{
+    return _interests;
+}
+- (void)setInterests:(NSString *)interests{
+     _interests = interests;
+}
+
+
+
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"Character with name %@, age %@ and height %@. Jim loves", [self name], @([self age]), @([self height])];
+    return [NSString stringWithFormat:@"Character with name %@, age %@ and height %@. Jim loves %@. Jim Sucks", [self name], @([self age]), @([self height]), [self interests]];
+    
+
+    
+    
     
 
     
